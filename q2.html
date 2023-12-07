@@ -1,1 +1,60 @@
-<!-- rewrite this document with the required content -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tim Berners-Lee - Inventor of the World Wide Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tim Berners-Lee: Inventor of the World Wide Web</h1>
+    </header>
+
+    <main>
+        <figure>
+            <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">
+                <img src="readmeimages/TimBernersLee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee - Inventor of the World Wide Web">
+            </a>
+            <figcaption>Tim Berners-Lee - Click the image to visit his Wikipedia page</figcaption>
+        </figure>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>Tim Berners-Lee is credited with inventing the World Wide Web, a revolutionary system of interlinked hypertext documents accessed via the internet.</p>
+        </section>
+
+        <section>
+            <h2>Key Components of the Invention</h2>
+            <ul>
+                <li>
+                    <strong>Hypertext:</strong> Refers to text displayed on a computer that links to other text which the reader can access immediately.
+                </li>
+                <li>
+                    <strong>HTTP (Hypertext Transfer Protocol):</strong> The foundation of data communication on the World Wide Web. It is the protocol used for transferring hypertext requests between a web browser and a server.
+                </li>
+                <li>
+                    <strong>HTML (Hypertext Markup Language):</strong> The standard markup language for creating web pages and web applications.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <x-copyright-year></x-copyright-year> Caleb Nolet</p>
+    </footer>
+
+    <script>
+        class CopyrightYear extends HTMLElement {
+            connectedCallback() {
+                const year = new Date().getFullYear();
+                this.textContent = year;
+            }
+        }
+
+        customElements.define("x-copyright-year", CopyrightYear);
+    </script>
+</body>
+
+</html>

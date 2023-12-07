@@ -5,7 +5,7 @@
 
 On the final there will be 5 questions, each worth 4 marks.
 
-1. q1.htnl includes a document about piday. The first included custom element, logs the days left until piday. Edit this custom element to put the value in the innerHtml.
+1. q1.html includes a document about piday. The first included custom element, logs the days left until piday. Edit this custom element to put the value in the innerHtml.
 You can use the 2d included custom element as a hint.
 If piday has already happened this year nDaysLeft will be negative. 
 Recalculate nPiday and nDaysLeft to be the days till the next piday if nDaysLeft is negative.
